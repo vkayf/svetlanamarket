@@ -1,3 +1,4 @@
-export default function App() {
-  return <h1>SVETLANA MARKET WORKING</h1>;
-}
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+
+createRoot(document.getElementById("root")!).render(<App />);
